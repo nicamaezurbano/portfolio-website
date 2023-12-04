@@ -74,7 +74,7 @@ header{
     right: 0;
 }
 #portfolio{
-    height: 500px;
+    /* height: 500px; */
     background-color: #f4f4f4;
 }
 #contact{

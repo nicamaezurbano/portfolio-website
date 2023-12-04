@@ -1,0 +1,123 @@
+/* GENERAL STYLE */
+body{
+    background-color: #fff;
+}
+h1, p {
+    margin: 0;
+}
+.title{
+    color: #3B3B3B;
+    font-family: 'Itim', cursive;
+    font-size: 48px;
+}
+.heading{    
+    color: #FF9F1C;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+}
+.subheading{    
+    color: #2EC4B6;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+}
+.text{
+    color: #3B3B3B;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+}
+.text_small{
+    color: #3B3B3B;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+.button_group{
+    padding-bottom: 20px;
+}
+.button{
+    background-color: #2EC4B6;
+    border-radius: 50px;
+    padding: 10px 20px;
+}
+.button:hover{
+    background-color: #1A7068;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+}
+.button2{
+    background-color: #FF9F1C;
+    border-radius: 50px;
+    padding: 10px 20px;
+}
+.button2:hover{
+    background-color: #F79D65;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+}
+.icon_1{
+    color: #FF9F1C;
+}
+.icon_2{
+    color: #2EC4B6;
+}
+.icons:hover{
+    color: #1A7068;
+}
+a{
+    text-decoration: none;
+}
+
+/* HOME */
+#main_container{
+    height: 100vh;
+}
+#profile_avatar_bg{
+    background-color: #F79D65;
+    box-shadow: inset 0 0 40px rgba(0, 0, 0, 0.5);
+    border: #2EC4B6 ridge 15px;
+}
+
+/* EDUCATION */
+.section_divider{
+    padding: 40px 0;
+}
+.certificate_label{
+    background-color: rgba(0, 0, 0, 0.6);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 45px;
+}
+
+/* SKILLS */
+#my_skills_text{
+    font-size: 68px;
+    margin-top: 40px;
+}
+.skill_name{
+    font-size: 32px;
+}
+.skill_section{
+    text-align: center;
+    padding: 20px 0;
+}
+.skill_icon_bg{
+    background-color: #F79D65;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+    width: fit-content;
+    padding: 20px;
+}
+
+/* PORTFOLIO */
+.portfolio_item{
+    /* background-color: #FFBF69; */
+    text-align: center;
+    padding: 20px;
+}
+.portfolio_item_body{
+    height: 200px;
+}
+.card_btn{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}

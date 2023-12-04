@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap’s compiled CSS, Popper and JS -->
+    <link href="bootstrap-5.3.1-dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="bootstrap-5.3.1-dist/js/bootstrap.min.js"></script>
+
+    <!-- AOS (Animate On Scroll) Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Itim&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/532608bff3.js" crossorigin="anonymous"></script>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Personal Site</title>
+</head>
+<body class="bg-secondary-color">
+    <div class="container-fluid row py-5">
+        <div class="col col-1 col-sm-1 col-md-1 col-lg-2 col-xl-2"></div>
+
+        <div id="profile_text" class="col col-10 col-sm-10 col-md-6 col-lg-5 col-xl-5 d-flex flex-column justify-content-start">
+            <div class="button_group d-flex flex-row justify-content-start">
+                <a href="index.html"><div class="button text_small text-light links"><i class="fa-solid fa-angle-left"></i> &nbsp Home</div></a>
+                <a href="education.html"><div class="button mx-2 text_small text-light links">Education</div></a>
+                <a href="skills.html"><div class="button mx-2 text_small text-light links">Skills</div></a>
+            </div>
+
+            <div class="section_divider">
+                <strong><p id="my_skills_text" class="heading">My Works</p></strong>
+            </div>
+        </div>
+
+        <div id="profile_avatar" class="col col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 d-none d-sm-none d-md-flex d-lg-flex d-xl-flex flex-column justify-content-start">
+            <div id="profile_avatar_bg">
+                <img src="images/avatar-idea.gif" alt="my avatar" width="100%">
+            </div>
+        </div>
+
+        <div class="col col-1 col-sm-1 col-md-1 col-lg-2 col-xl-2"></div>
+    </div>
+
+    <div class="container-fluid row py-5">
+        <div class="col col-1 col-sm-1 col-md-1 col-lg-2 col-xl-2"></div>
+
+        <div class="col col-10 col-sm-10 col-md-10 col-lg-8 col-xl-8">
+            <div class="row">
+                <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 portfolio_item">
+                    <div class="card">
+                        <img src="images/portfolio/4.png" class="card-img-top" alt="SIT Website">
+                        <div class="card-body d-flex flex-column justify-content-evenly portfolio_item_body">
+                            <h5 class="card-title">School of Information and Technology website</h5>
+                            <p class="icon_1">
+                                <i class="fa-brands fa-html5 fa-2x"></i>&nbsp 
+                                <i class="fa-brands fa-css3-alt fa-2x"></i>&nbsp 
+                                <i class="fa-brands fa-bootstrap fa-2x"></i>
+                            </p>
+                            <a href="https://github.com/nicamaezurbano/school-of-IT-website" class="btn button card_btn text-light">
+                                <i class="fa-solid fa-up-right-from-square"></i>&nbsp GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 portfolio_item">
+                    <div class="card">
+                        <img src="images/portfolio/5.png" class="card-img-top" alt="Wordpress Website">
+                        <div class="card-body d-flex flex-column justify-content-evenly portfolio_item_body">
+                            <h5 class="card-title">E-commerce website</h5>
+                            <p class="icon_1">
+                                <i class="fa-brands fa-wordpress fa-2x"></i>
+                            </p>
+                            <a href="https://dev-crochet-and-knitted.pantheonsite.io/" class="btn button card_btn text-light">
+                                <i class="fa-solid fa-up-right-from-square"></i>&nbsp Pantheon</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 portfolio_item">
+                    <div class="card">
+                        <img src="images/portfolio/6.png" class="card-img-top" alt="Windows Forms application">
+                        <div class="card-body d-flex flex-column justify-content-evenly portfolio_item_body">
+                            <h5 class="card-title">A simple ordering system created using C# windows form application</h5>
+                            <a href="https://github.com/nicamaezurbano/C-sharp-project" class="btn button card_btn text-light">
+                                <i class="fa-solid fa-up-right-from-square"></i>&nbsp GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 portfolio_item">
+                    <div class="card">
+                        <img src="images/portfolio/7.png" class="card-img-top" alt="Windows Forms application">
+                        <div class="card-body d-flex flex-column justify-content-evenly portfolio_item_body">
+                            <h5 class="card-title">A small online shop created using C# windows form application with database connection and crystal reports</h5>
+                            <a href="https://github.com/nicamaezurbano/C-sharp-project-with-database-connection" class="btn button card_btn text-light">
+                                <i class="fa-solid fa-up-right-from-square"></i>&nbsp GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 portfolio_item">
+                    <div class="card">
+                        <img src="images/portfolio/1.png" class="card-img-top" alt="Mobile App design">
+                        <div class="card-body d-flex flex-column justify-content-evenly portfolio_item_body">
+                            <h5 class="card-title">A mobile application design using Balsamiq Wireframes</h5>
+                            <a href="https://www.canva.com/design/DAF2BlNujZk/odDmI1PHAuxV3Uxdr_BUeQ/view?utm_content=DAF2BlNujZk&utm_campaign=designshare&utm_medium=link&utm_source=editor" class="btn button card_btn text-light">
+                                <i class="fa-solid fa-up-right-from-square"></i>&nbsp Canva</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 portfolio_item">
+                    <div class="card">
+                        <img src="images/portfolio/3.png" class="card-img-top" alt="Mobile App design">
+                        <div class="card-body d-flex flex-column justify-content-evenly portfolio_item_body">
+                            <h5 class="card-title">A mobile application design using Balsamiq Wireframes that allows student to create and manage their schedules and tasks.</h5>
+                            <a href="https://www.canva.com/design/DAF2BnMBNrI/r9kQRtarolIKklFQ5XKVIA/view?utm_content=DAF2BnMBNrI&utm_campaign=designshare&utm_medium=link&utm_source=editor" class="btn button card_btn text-light">
+                                <i class="fa-solid fa-up-right-from-square"></i>&nbsp Canva</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 portfolio_item">
+                    <div class="card">
+                        <img src="images/portfolio/2.png" class="card-img-top" alt="Low Fidelity design">
+                        <div class="card-body d-flex flex-column justify-content-evenly portfolio_item_body">
+                            <h5 class="card-title">Low Fidelity Design of an Airline Ticketing Website using Balsamiq Wireframes</h5>
+                            <a href="https://drive.google.com/file/d/1-rLB4IaStTbUqEE09J99pZ_ogKy_2fYY/view?usp=sharing" class="btn button card_btn text-light">
+                                <i class="fa-solid fa-up-right-from-square"></i>&nbsp Google Drive</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 portfolio_item">
+                    <div class="card">
+                        <img src="images/portfolio/8.png" class="card-img-top" alt="Low Fidelity design">
+                        <div class="card-body d-flex flex-column justify-content-evenly portfolio_item_body">
+                            <h5 class="card-title">Sample artworks and booklet created using Photoshop.</h5>
+                            <a href="https://drive.google.com/drive/folders/19rdYIJ5Ip524EvKWFGjCyI8W9zs4b23M?usp=sharing" class="btn button card_btn text-light">
+                                <i class="fa-solid fa-up-right-from-square"></i>&nbsp Google Drive</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col col-1 col-sm-1 col-md-1 col-lg-2 col-xl-2"></div>
+    </div>
+
+    
+    <!-- Link to external JavaScript file -->
+    <script src="js/externalJS.js"></script>
+</body>
+</html>

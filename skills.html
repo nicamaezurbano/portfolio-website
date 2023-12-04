@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap’s compiled CSS, Popper and JS -->
+    <link href="bootstrap-5.3.1-dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="bootstrap-5.3.1-dist/js/bootstrap.min.js"></script>
+
+    <!-- AOS (Animate On Scroll) Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Itim&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/532608bff3.js" crossorigin="anonymous"></script>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Personal Site</title>
+</head>
+<body class="bg-secondary-color">
+    <div class="container-fluid row py-5">
+        <div class="col col-1 col-sm-1 col-md-1 col-lg-2 col-xl-2"></div>
+
+        <div id="profile_text" class="col col-10 col-sm-10 col-md-6 col-lg-5 col-xl-5 d-flex flex-column justify-content-start">
+            <div class="button_group d-flex flex-row justify-content-start">
+                <a href="index.html"><div class="button text_small text-light links"><i class="fa-solid fa-angle-left"></i> &nbsp Home</div></a>
+                <a href="education.html"><div class="button mx-2 text_small text-light links">Education</div></a>
+                <a href="portfolio.html"><div class="button text_small text-light links">Portfolio</div></a>
+            </div>
+
+            <div class="section_divider">
+                <strong><p id="my_skills_text" class="heading">My Skills</p></strong>
+            </div>
+        </div>
+
+        <div id="profile_avatar" class="col col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 d-none d-sm-none d-md-flex d-lg-flex d-xl-flex flex-column justify-content-start">
+            <div id="profile_avatar_bg">
+                <img src="images/avatar-clapping.gif" alt="my avatar" width="100%">
+            </div>
+        </div>
+
+        <div class="col col-1 col-sm-1 col-md-1 col-lg-2 col-xl-2"></div>
+    </div>
+
+    <div class="container-fluid row py-5">
+        <div class="col col-1 col-sm-1 col-md-1 col-lg-2 col-xl-2"></div>
+
+        <div class="col col-10 col-sm-10 col-md-10 col-lg-8 col-xl-8">
+
+            <div id="skills_container" class="row">
+                <div class="col col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 skill_section" data-aos="fade-up">
+                    <span class="fa-stack fa-3x">
+                        <i class="fa-solid fa-circle fa-stack-2x" style="color: #ff9e00;"></i>
+                        <i class="fa-solid fa-code fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h1 class="title skill_name py-3">Programming<br>Languages</h1>
+                    <p class="text text_small py-2">
+                        C language <br>
+                        C# <br>
+                        Java <br>
+                        Visual Basic <br>
+                        Kotlin <br>
+                    </p>
+                </div>
+        
+                <div class="col col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 skill_section" data-aos="fade-up">
+                    <span class="fa-stack fa-3x">
+                        <i class="fa-solid fa-circle fa-stack-2x" style="color: #ff9100;"></i>
+                        <i class="fa-brands fa-bootstrap fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h1 class="title skill_name py-3">Programming<br>Framework</h1>
+                    <p class="text text_small py-2">
+                        Bootstrap <br>
+                        Laravel <br>
+                        React Native <br>
+                    </p>
+                </div>
+        
+                <div class="col col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 skill_section" data-aos="fade-up">
+                    <span class="fa-stack fa-3x">
+                        <i class="fa-solid fa-circle fa-stack-2x" style="color: #ff8500;"></i>
+                        <i class="fa-solid fa-globe fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h1 class="title skill_name py-3">Web<br>Development</h1>
+                    <p class="text text_small py-2">
+                        HTML <br>
+                        CSS <br>
+                        JavaScript <br>
+                        PHP <br>
+                        WordPress <br>
+                    </p>
+                </div>
+                
+                <div class="col col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 skill_section" data-aos="fade-up">
+                    <span class="fa-stack fa-3x">
+                        <i class="fa-solid fa-circle fa-stack-2x" style="color: #ff7900;"></i>
+                        <i class="fa-brands fa-git-alt fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h1 class="title skill_name py-3">Version<br>Control</h1>
+                    <p class="text text_small py-2">
+                        Git <br>
+                        GitHub <br>
+                        GitLab <br>
+                        Sourcetree <br>
+                    </p>
+                </div>
+        
+                <div class="col col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 skill_section" data-aos="fade-up">
+                    <span class="fa-stack fa-3x">
+                        <i class="fa-solid fa-circle fa-stack-2x" style="color: #ff6d00;"></i>
+                        <i class="fa-brands fa-figma fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h1 class="title skill_name py-3">Editing<br>Tools</h1>
+                    <p class="text text_small py-2">
+                        Adobe Photoshop <br>
+                        Canva <br>
+                        Figma <br>
+                    </p>
+                </div>
+        
+                <div class="col col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 skill_section" data-aos="fade-up">
+                    <span class="fa-stack fa-3x">
+                        <i class="fa-solid fa-circle fa-stack-2x" style="color: #ff6000;"></i>
+                        <i class="fa-solid fa-file fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h1 class="title skill_name py-3">Productivity<br>Tools</h1>
+                    <p class="text text_small py-2">
+                        Word Processing <br>
+                        Spreadsheet <br>
+                        Presentation <br>
+                    </p>
+                </div>
+                
+                <div class="col col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 skill_section" data-aos="fade-up">
+                    <span class="fa-stack fa-3x">
+                        <i class="fa-solid fa-circle fa-stack-2x" style="color: #ff5400;"></i>
+                        <i class="fa-solid fa-database fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h1 class="title skill_name py-3">Database<br>Management</h1>
+                    <p class="text text_small py-2">
+                        MySQL <br>
+                    </p>
+                </div>
+        
+                <div class="col col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 skill_section" data-aos="fade-up">
+                    <span class="fa-stack fa-3x">
+                        <i class="fa-solid fa-circle fa-stack-2x" style="color: #ff4800;"></i>
+                        <i class="fa-solid fa-network-wired fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h1 class="title skill_name py-3">Computer<br>Systems</h1>
+                    <p class="text text_small py-2">
+                        Computer Systems <br>
+                        Servicing - NC II <br>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col col-1 col-sm-1 col-md-1 col-lg-2 col-xl-2"></div>
+    </div>
+
+    
+    <!-- Link to external JavaScript file -->
+    <script src="js/externalJS.js"></script>
+</body>
+</html>
