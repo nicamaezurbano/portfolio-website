@@ -2,11 +2,11 @@
 body{
     background-color: #fff;
 }
-h1, p {
+h1, p, a {
     margin: 0;
+    color: #3B3B3B;
 }
 .title{
-    color: #3B3B3B;
     font-family: 'Itim', cursive;
     font-size: 48px;
 }
@@ -21,12 +21,10 @@ h1, p {
     font-size: 20px;
 }
 .text{
-    color: #3B3B3B;
     font-family: 'Inter', sans-serif;
     font-size: 20px;
 }
 .text_small{
-    color: #3B3B3B;
     font-family: 'Inter', sans-serif;
     font-size: 16px;
 }
@@ -37,6 +35,7 @@ h1, p {
     background-color: #2EC4B6;
     border-radius: 50px;
     padding: 10px 20px;
+    width: fit-content;
 }
 .button:hover{
     background-color: #1A7068;
@@ -50,6 +49,16 @@ h1, p {
 .button2:hover{
     background-color: #F79D65;
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+}
+.button3{
+    border: 3px #2EC4B6 solid;
+    border-radius: 50px;
+    padding: 10px 20px;
+}
+.button3:hover{
+    background-color: #1A7068;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+    color: #f2f2f2;
 }
 .icon_1{
     color: #FF9F1C;
@@ -117,7 +126,6 @@ a{
     height: 200px;
 }
 .card_btn{
-    width: fit-content;
     margin-left: auto;
     margin-right: auto;
 }
